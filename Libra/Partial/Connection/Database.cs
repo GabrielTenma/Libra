@@ -4,7 +4,7 @@ using System.Data;
 
 namespace Libra
 {
-    partial class Connection
+    public partial class Connection
     {
         public class Database
         {

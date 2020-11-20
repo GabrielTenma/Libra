@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ainsworth\\source\\repos\\Libra\\Libra\\Libra.csproj": {}
+    "C:\\Users\\Ainsworth\\source\\repos\\Libra\\ApiGate\\ApiGate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ainsworth\\source\\repos\\Libra\\Libra\\Libra.csproj": {
+    "C:\\Users\\Ainsworth\\source\\repos\\Libra\\ApiGate\\ApiGate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ainsworth\\source\\repos\\Libra\\Libra\\Libra.csproj",
-        "projectName": "Libra",
-        "projectPath": "C:\\Users\\Ainsworth\\source\\repos\\Libra\\Libra\\Libra.csproj",
+        "projectUniqueName": "C:\\Users\\Ainsworth\\source\\repos\\Libra\\ApiGate\\ApiGate.csproj",
+        "projectName": "ApiGate",
+        "projectPath": "C:\\Users\\Ainsworth\\source\\repos\\Libra\\ApiGate\\ApiGate.csproj",
         "packagesPath": "C:\\Users\\Ainsworth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ainsworth\\source\\repos\\Libra\\Libra\\obj\\",
+        "outputPath": "C:\\Users\\Ainsworth\\source\\repos\\Libra\\ApiGate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ainsworth\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,23 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "MySql.Data": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.22, )"
+              "version": "[5.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             }
           },
           "imports": [
@@ -56,6 +70,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

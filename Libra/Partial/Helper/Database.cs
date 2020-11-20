@@ -1,7 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System.Collections.Generic;
 using System.Data;
-
+ 
 namespace Libra
 {
     partial class Helper
@@ -105,20 +105,20 @@ namespace Libra
 
             return result;
         }
-/*
+        /*
 
-        /// <summary>
-        /// Function For Build Autogenerate strQuery from Datatable to String(SQL strQuery)
-        /// </summary>
-        /// <param name="table">Datatable Target</param>
-        /// <param name="table_name">Table Name</param>
-        /// <param name="DBConfig">Database Configuration</param>
-        /// <returns></returns>
-        public static string DBBulkInsertBuilder(ref DataTable table, string table_name, Connection.Database DBConfig)
-        {
-            return DBConfig.BulkInsert(ref table, table_name);
-        }
-*/
+                /// <summary>
+                /// Function For Build Autogenerate strQuery from Datatable to String(SQL strQuery)
+                /// </summary>
+                /// <param name="table">Datatable Target</param>
+                /// <param name="table_name">Table Name</param>
+                /// <param name="DBConfig">Database Configuration</param>
+                /// <returns></returns>
+                public static string DBBulkInsertBuilder(ref DataTable table, string table_name, Connection.Database DBConfig)
+                {
+                    return DBConfig.BulkInsert(ref table, table_name);
+                }
+        */
 
         /// <summary>
         /// Function For Build Dictonary from table/datatable

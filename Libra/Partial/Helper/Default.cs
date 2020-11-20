@@ -126,7 +126,7 @@ namespace Libra
         /// <summary>
         /// Function For Check Database Before Application Running
         /// </summary>
-        public static void DBCheckDBisAlive(Connection.Database DBConfig, string ApplicationLocation)
+        static void DBCheckDBisAlive(Connection.Database DBConfig, string ApplicationLocation)
         {
             var check = DBConfig.IsConnected(out string Error);
             if (!check)
@@ -143,7 +143,7 @@ namespace Libra
         /// </summary>
         /// <param name="DBConfig">Database Class Configuration</param>
         /// <returns></returns>
-        public static bool DBCheckDBIsAliveBool(Connection.Database DBConfig)
+        static bool DBCheckDBIsAliveBool(Connection.Database DBConfig)
         {
             return DBConfig.IsConnected(out string error);
         }
@@ -236,7 +236,7 @@ namespace Libra
         /// Function For Database Check Connection (For Application Startup Only)
         /// </summary>
         /// <param name="DBConfig">Database Configuration</param>
-        public static void DBDatabaseCheck(Connection.Database DBConfig, int MaxReconnect)
+        static void DBDatabaseCheck(Connection.Database DBConfig, int MaxReconnect)
         {
             int counter = 0;
             bool result;

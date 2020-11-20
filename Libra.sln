@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30709.132
+VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Libra", "Libra\Libra.csproj", "{36EE8F68-40B8-4F85-BB10-2B98217C084B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Libra", "Libra\Libra.csproj", "{A2E79FD3-BC84-445D-8840-C512FB949B44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGate", "ApiGate\ApiGate.csproj", "{61898DC2-4274-4955-A080-6AA18C677CF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36EE8F68-40B8-4F85-BB10-2B98217C084B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36EE8F68-40B8-4F85-BB10-2B98217C084B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36EE8F68-40B8-4F85-BB10-2B98217C084B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36EE8F68-40B8-4F85-BB10-2B98217C084B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E79FD3-BC84-445D-8840-C512FB949B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E79FD3-BC84-445D-8840-C512FB949B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E79FD3-BC84-445D-8840-C512FB949B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E79FD3-BC84-445D-8840-C512FB949B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61898DC2-4274-4955-A080-6AA18C677CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61898DC2-4274-4955-A080-6AA18C677CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61898DC2-4274-4955-A080-6AA18C677CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61898DC2-4274-4955-A080-6AA18C677CF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C3306438-7A74-464C-BDA1-1584175C6505}
+		SolutionGuid = {86D21191-9DCE-4FE6-A0F5-3CCF2ED02F14}
 	EndGlobalSection
 EndGlobal

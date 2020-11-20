@@ -1,56 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-	 <Description>Library Helper to make easier code.</Description>
-    <Copyright>GPL</Copyright>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="BeetleX.dll" />
-    <None Remove="BeetleX.Http.Clients.dll" />
-    <None Remove="MySql.Data.dll" />
-    <None Remove="Newtonsoft.Json.dll" />
-    <None Remove="Newtonsoft.Json.xml" />
-    <None Remove="Ubiety.Dns.Core.dll" />
-    <None Remove="Zstandard.Net.dll" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="BeetleX.dll">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BeetleX.Http.Clients.dll">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MySql.Data.dll">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Newtonsoft.Json.dll">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Newtonsoft.Json.xml">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ubiety.Dns.Core.dll">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Zstandard.Net.dll">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="BeetleX" Version="1.5.5.3" />
-    <PackageReference Include="BeetleX.Http.Clients" Version="1.2.8.8" />
     <PackageReference Include="MySql.Data" Version="8.0.22" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Base\" />
-    <Folder Include="Partial\Components\" />
-    <Folder Include="Partial\Extensions\" />
   </ItemGroup>
 
 </Project>

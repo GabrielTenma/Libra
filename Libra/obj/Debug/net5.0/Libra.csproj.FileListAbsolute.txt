@@ -1,0 +1,12 @@
+C:\Users\Ainsworth\source\repos\Libra\Libra\obj\Debug\net5.0\Libra.csprojAssemblyReference.cache
+C:\Users\Ainsworth\source\repos\Libra\Libra\obj\Debug\net5.0\Libra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ainsworth\source\repos\Libra\Libra\obj\Debug\net5.0\Libra.AssemblyInfoInputs.cache
+C:\Users\Ainsworth\source\repos\Libra\Libra\obj\Debug\net5.0\Libra.AssemblyInfo.cs
+C:\Users\Ainsworth\source\repos\Libra\Libra\obj\Debug\net5.0\Libra.csproj.CoreCompileInputs.cache
+C:\Users\Ainsworth\source\repos\Libra\Libra\bin\Debug\net5.0\Libra.deps.json
+C:\Users\Ainsworth\source\repos\Libra\Libra\bin\Debug\net5.0\Libra.dll
+C:\Users\Ainsworth\source\repos\Libra\Libra\bin\Debug\net5.0\ref\Libra.dll
+C:\Users\Ainsworth\source\repos\Libra\Libra\bin\Debug\net5.0\Libra.pdb
+C:\Users\Ainsworth\source\repos\Libra\Libra\obj\Debug\net5.0\Libra.dll
+C:\Users\Ainsworth\source\repos\Libra\Libra\obj\Debug\net5.0\ref\Libra.dll
+C:\Users\Ainsworth\source\repos\Libra\Libra\obj\Debug\net5.0\Libra.pdb
